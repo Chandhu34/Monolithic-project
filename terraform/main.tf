@@ -1,6 +1,6 @@
 resource "aws_launch_template" "web_server_as" {
     name = "myproject"
-    image_id           = "ami-073130f74f5ffb161"
+    image_id           = "ami-056335ec4a8783947"
     vpc_security_group_ids = [aws_security_group.web_server.id]
     instance_type = "t3.micro"
     key_name = "gitkp"
