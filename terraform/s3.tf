@@ -1,5 +1,5 @@
 resource "aws_s3_bucket" "one" {
-  bucket = "chandana242.monobucket"
+  bucket = "chandhana2424.monobucket"
 }
 
 resource "aws_s3_bucket_ownership_controls" "two" {
@@ -25,7 +25,7 @@ status = "Enabled"
 terraform {
 backend "s3" {
 region = "eu-north-1"
-bucket = "chandana242.monobucket"
+bucket = "chandhana2424.monobucket"
 key = "prod/terraform.tfstate"
 }
 }
